@@ -5,7 +5,7 @@
 
 ### Sending Message
 
-Make a POST request to `BASE_URL/send-message` containing your API key, Vendor name and Message Receivers. 
+Make a POST request to `/send-message` containing your API key, Vendor name and Message Receivers. 
 
 Example
 ```JSON 
@@ -18,4 +18,4 @@ Example
 
 ### Retrieve Vendor Information 
 
-Make a GET request to `BASE_URL/vendor-info?apiKey=76f2d6b6414fb924a3a42f344760b6&vendor=EMESSAGE`
+Make a GET request to `vendor-info?apiKey=76f2d6b6414fb924a3a42f344760b6&vendor=EMESSAGE`
