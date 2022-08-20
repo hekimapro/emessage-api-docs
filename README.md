@@ -14,8 +14,8 @@ Example
     "vendor": "EMESSAGE", 
     "message": "Hello World",
     "receivers": [ "+255752628215", "+255657658515"],
-		"scheduled": true, // OPTIONAL
-		"scheduledDate": "2022-08-21T08:06:42.334+00:00" // OPTIONAL
+    "scheduled": true, // OPTIONAL
+    "scheduledDate": "2022-08-21T08:06:42.334+00:00" // OPTIONAL
   }
 ```
 
