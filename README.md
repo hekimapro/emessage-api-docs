@@ -17,6 +17,6 @@ Example
   }
 ```
 
-### Retrieve Vendor Information 
+### Retrieve Vendor(s) Information 
 
-Make a GET request to `vendor-info?apiKey=76f2d6b6414fb924a3a42f344760b6&vendor=EMESSAGE`
+Make a GET request to `vendor-info?apiKey=76f2d6b6414fb924a3a42f344760b6`
