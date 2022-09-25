@@ -101,3 +101,32 @@ Sample JSON Response:
       }
    }
 ```
+
+### Load all Vendor Messages
+
+Make a GET request to `/messages?apiKey=7d74c6d624d8bb5703d7bff8c81b5c&vendor=emessage`
+
+Sample JSON Response: 
+```json
+	{
+		"success": true,
+		"message": [
+			{
+				"message": "Your one time password (OTP) is: 378155.\nValid for 5 minutes.",
+				"cost": 28,
+				"date": "2022-09-17T10:47:35.039Z",
+				"receivers": [
+					"+255752628215"
+				]
+			},
+			{
+				"message": "Your one time password (OTP) is: 348961",
+				"cost": 28,
+				"date": "2022-09-17T10:34:56.832Z",
+				"receivers": [
+					"+255752628215"
+				]
+			}
+		]
+	}
+```
