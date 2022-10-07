@@ -130,3 +130,24 @@ Sample JSON Response:
 		]
 	}
 ```
+
+### Request Vendor Name
+
+Make a POST request to `/api/request` containing your apiKey and vendor name to request
+
+Sample JSON request
+```json
+   {
+      "apiKey": "2161cf091012062796961a9a70caf6",
+      "vendorName": "EMESSAGE"
+   }
+```
+
+Sample JSON response 
+```json
+   {
+       "success": true,
+       "message": "Your request has been sent"
+   }
+```
+
