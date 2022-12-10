@@ -88,7 +88,7 @@ Sample JSON Response:
 
 ### Verifying  One Time Password (OTP)
 
-Make a GET request to `/verify-otp?otp=378155&phoneNumber=+255752628215`
+Make a GET request to `/verify-otp?otp=378155&phoneNumber=255752628215`
 
 Sample JSON Response: 
 ```json
