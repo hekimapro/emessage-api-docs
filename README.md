@@ -1,7 +1,7 @@
 # EMessage API Documentation
 
 ### EMessage Base URL 
-`https://emessage.co.tz/api`
+`https://emessage.plab.tech/api`
 
 ### Sending Message
 
